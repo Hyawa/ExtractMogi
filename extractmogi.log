@@ -1,0 +1,295 @@
+2026-01-26 23:40:52,377 - __main__ - INFO - Iniciando ExtractMogi
+2026-01-26 23:40:52,559 - __main__ - INFO - Banco de dados inicializado
+2026-01-26 23:41:19,686 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:41:19,688 - __main__ - INFO - CSV carregado: 20260124_140352_busca_mogi_perfil.csv com 371 empresas
+2026-01-26 23:41:30,138 - __main__ - INFO - Iniciando processamento de empresas
+2026-01-26 23:41:30,141 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:41:30,141 - src.processors.async_processor - INFO - Iniciando processamento assíncrono de 371 empresas
+2026-01-26 23:43:58,063 - __main__ - INFO - Iniciando ExtractMogi
+2026-01-26 23:43:58,221 - __main__ - INFO - Banco de dados inicializado
+2026-01-26 23:44:12,375 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:44:12,376 - __main__ - INFO - CSV carregado: 20260124_140352_busca_mogi_perfil.csv com 371 empresas
+2026-01-26 23:44:14,492 - __main__ - INFO - Iniciando processamento de empresas
+2026-01-26 23:44:14,498 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:44:14,498 - src.processors.async_processor - INFO - Iniciando processamento assíncrono de 371 empresas
+2026-01-26 23:44:24,706 - __main__ - INFO - Iniciando: SELETA & NATURAL
+2026-01-26 23:44:24,720 - src.processors.async_processor - INFO - [1/371] Processando: SELETA & NATURAL
+2026-01-26 23:44:32,383 - src.scrappers.google_scraper - INFO - Buscando: "SELETA & NATURAL" Mogi Mirim
+2026-01-26 23:44:43,554 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: SELETA & NATURAL
+2026-01-26 23:44:43,609 - src.processors.async_processor - INFO - Novo registro criado: SELETA & NATURAL
+2026-01-26 23:44:43,767 - __main__ - INFO - Concluído: SELETA & NATURAL - Sem dados
+2026-01-26 23:44:44,781 - __main__ - INFO - Iniciando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:44:44,785 - src.processors.async_processor - INFO - [2/371] Processando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:44:45,035 - src.scrappers.google_scraper - INFO - Buscando: "REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL" Mogi Mirim
+2026-01-26 23:44:52,765 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:44:52,799 - src.processors.async_processor - INFO - Novo registro criado: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:44:52,888 - __main__ - INFO - Concluído: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL - Sem dados
+2026-01-26 23:44:53,895 - __main__ - INFO - Iniciando: KIOSQUE DOS AMIGOS
+2026-01-26 23:44:53,899 - src.processors.async_processor - INFO - [3/371] Processando: KIOSQUE DOS AMIGOS
+2026-01-26 23:44:54,201 - src.scrappers.google_scraper - INFO - Buscando: "KIOSQUE DOS AMIGOS" Mogi Mirim
+2026-01-26 23:45:02,067 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: KIOSQUE DOS AMIGOS
+2026-01-26 23:45:02,082 - src.processors.async_processor - INFO - Novo registro criado: KIOSQUE DOS AMIGOS
+2026-01-26 23:45:02,171 - __main__ - INFO - Concluído: KIOSQUE DOS AMIGOS - Sem dados
+2026-01-26 23:45:03,173 - __main__ - INFO - Iniciando: ALECINIAS MATSUMOTO
+2026-01-26 23:45:03,177 - src.processors.async_processor - INFO - [4/371] Processando: ALECINIAS MATSUMOTO
+2026-01-26 23:45:03,300 - src.scrappers.google_scraper - INFO - Buscando: "ALECINIAS MATSUMOTO" Mogi Mirim
+2026-01-26 23:45:11,075 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: ALECINIAS MATSUMOTO
+2026-01-26 23:45:11,090 - src.processors.async_processor - INFO - Novo registro criado: ALECINIAS MATSUMOTO
+2026-01-26 23:45:11,177 - __main__ - INFO - Concluído: ALECINIAS MATSUMOTO - Sem dados
+2026-01-26 23:45:12,187 - __main__ - INFO - Iniciando: S. & A. JARDINAGEM
+2026-01-26 23:45:12,191 - src.processors.async_processor - INFO - [5/371] Processando: S. & A. JARDINAGEM
+2026-01-26 23:45:12,469 - src.scrappers.google_scraper - INFO - Buscando: "S. & A. JARDINAGEM" Mogi Mirim
+2026-01-26 23:45:20,289 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: S. & A. JARDINAGEM
+2026-01-26 23:45:20,302 - src.processors.async_processor - INFO - Novo registro criado: S. & A. JARDINAGEM
+2026-01-26 23:45:20,371 - __main__ - INFO - Concluído: S. & A. JARDINAGEM - Sem dados
+2026-01-26 23:45:21,392 - __main__ - INFO - Iniciando: RC MOTORS
+2026-01-26 23:45:21,397 - src.processors.async_processor - INFO - [6/371] Processando: RC MOTORS
+2026-01-26 23:45:21,598 - src.scrappers.google_scraper - INFO - Buscando: "RC MOTORS" Mogi Mirim
+2026-01-26 23:45:29,365 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: RC MOTORS
+2026-01-26 23:45:29,404 - src.processors.async_processor - INFO - Novo registro criado: RC MOTORS
+2026-01-26 23:45:29,530 - __main__ - INFO - Concluído: RC MOTORS - Sem dados
+2026-01-26 23:45:30,588 - __main__ - INFO - Iniciando: CLEIDE MODA PLUS SIZE
+2026-01-26 23:45:30,592 - src.processors.async_processor - INFO - [7/371] Processando: CLEIDE MODA PLUS SIZE
+2026-01-26 23:45:30,730 - src.scrappers.google_scraper - INFO - Buscando: "CLEIDE MODA PLUS SIZE" Mogi Mirim
+2026-01-26 23:45:38,456 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: CLEIDE MODA PLUS SIZE
+2026-01-26 23:45:38,470 - src.processors.async_processor - INFO - Novo registro criado: CLEIDE MODA PLUS SIZE
+2026-01-26 23:45:38,550 - __main__ - INFO - Concluído: CLEIDE MODA PLUS SIZE - Sem dados
+2026-01-26 23:45:39,563 - __main__ - INFO - Iniciando: DK FASHION STORE
+2026-01-26 23:45:39,567 - src.processors.async_processor - INFO - [8/371] Processando: DK FASHION STORE
+2026-01-26 23:45:39,698 - src.scrappers.google_scraper - INFO - Buscando: "DK FASHION STORE" Mogi Mirim
+2026-01-26 23:45:47,328 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: DK FASHION STORE
+2026-01-26 23:45:47,344 - src.processors.async_processor - INFO - Novo registro criado: DK FASHION STORE
+2026-01-26 23:45:47,468 - __main__ - INFO - Concluído: DK FASHION STORE - Sem dados
+2026-01-26 23:45:48,490 - __main__ - INFO - Iniciando: MV SISTEMAS
+2026-01-26 23:45:48,492 - src.processors.async_processor - INFO - [9/371] Processando: MV SISTEMAS
+2026-01-26 23:45:48,615 - src.scrappers.google_scraper - INFO - Buscando: "MV SISTEMAS" Mogi Mirim
+2026-01-26 23:45:56,483 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: MV SISTEMAS
+2026-01-26 23:45:56,522 - src.processors.async_processor - INFO - Novo registro criado: MV SISTEMAS
+2026-01-26 23:45:56,593 - __main__ - INFO - Concluído: MV SISTEMAS - Sem dados
+2026-01-26 23:45:57,638 - __main__ - INFO - Iniciando: ADEMAR LANCHES
+2026-01-26 23:45:57,641 - src.processors.async_processor - INFO - [10/371] Processando: ADEMAR LANCHES
+2026-01-26 23:45:57,775 - src.scrappers.google_scraper - INFO - Buscando: "ADEMAR LANCHES" Mogi Mirim
+2026-01-26 23:46:05,358 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: ADEMAR LANCHES
+2026-01-26 23:46:05,399 - src.processors.async_processor - INFO - Novo registro criado: ADEMAR LANCHES
+2026-01-26 23:46:05,515 - __main__ - INFO - Concluído: ADEMAR LANCHES - Sem dados
+2026-01-26 23:46:06,564 - __main__ - INFO - Iniciando: A D TRANSPORTES
+2026-01-26 23:46:06,566 - src.processors.async_processor - INFO - [11/371] Processando: A D TRANSPORTES
+2026-01-26 23:46:06,736 - src.scrappers.google_scraper - INFO - Buscando: "A D TRANSPORTES" Mogi Mirim
+2026-01-26 23:46:14,222 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: A D TRANSPORTES
+2026-01-26 23:46:14,264 - src.processors.async_processor - INFO - Novo registro criado: A D TRANSPORTES
+2026-01-26 23:46:14,344 - __main__ - INFO - Concluído: A D TRANSPORTES - Sem dados
+2026-01-26 23:46:15,363 - __main__ - INFO - Iniciando: MALU MADALENA
+2026-01-26 23:46:15,368 - src.processors.async_processor - INFO - [12/371] Processando: MALU MADALENA
+2026-01-26 23:46:15,511 - src.scrappers.google_scraper - INFO - Buscando: "MALU MADALENA" Mogi Mirim
+2026-01-26 23:46:23,082 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: MALU MADALENA
+2026-01-26 23:46:23,103 - src.processors.async_processor - INFO - Novo registro criado: MALU MADALENA
+2026-01-26 23:46:23,207 - __main__ - INFO - Concluído: MALU MADALENA - Sem dados
+2026-01-26 23:46:24,257 - __main__ - INFO - Iniciando: LUZZERIE
+2026-01-26 23:46:24,259 - src.processors.async_processor - INFO - [13/371] Processando: LUZZERIE
+2026-01-26 23:46:24,407 - src.scrappers.google_scraper - INFO - Buscando: "LUZZERIE" Mogi Mirim
+2026-01-26 23:46:32,137 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: LUZZERIE
+2026-01-26 23:46:32,185 - src.processors.async_processor - INFO - Novo registro criado: LUZZERIE
+2026-01-26 23:46:32,280 - __main__ - INFO - Concluído: LUZZERIE - Sem dados
+2026-01-26 23:46:33,335 - __main__ - INFO - Iniciando: GASTRONOMEU GOURMET
+2026-01-26 23:46:33,341 - src.processors.async_processor - INFO - [14/371] Processando: GASTRONOMEU GOURMET
+2026-01-26 23:46:33,470 - src.scrappers.google_scraper - INFO - Buscando: "GASTRONOMEU GOURMET" Mogi Mirim
+2026-01-26 23:46:40,673 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: GASTRONOMEU GOURMET
+2026-01-26 23:46:40,691 - src.processors.async_processor - INFO - Novo registro criado: GASTRONOMEU GOURMET
+2026-01-26 23:46:40,780 - __main__ - INFO - Concluído: GASTRONOMEU GOURMET - Sem dados
+2026-01-26 23:46:41,813 - __main__ - INFO - Iniciando: MARCENARIA PALERMO
+2026-01-26 23:46:41,814 - src.processors.async_processor - INFO - [15/371] Processando: MARCENARIA PALERMO
+2026-01-26 23:46:41,935 - src.scrappers.google_scraper - INFO - Buscando: "MARCENARIA PALERMO" Mogi Mirim
+2026-01-26 23:46:49,766 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: MARCENARIA PALERMO
+2026-01-26 23:46:49,805 - src.processors.async_processor - INFO - Novo registro criado: MARCENARIA PALERMO
+2026-01-26 23:46:49,927 - src.processors.async_processor - ERROR - Erro ao processar MARCENARIA PALERMO: App is not running
+2026-01-26 23:46:50,500 - __main__ - ERROR - Erro durante processamento: App is not running
+2026-01-26 23:52:05,397 - __main__ - INFO - Iniciando ExtractMogi
+2026-01-26 23:52:05,517 - __main__ - INFO - Banco de dados inicializado
+2026-01-26 23:52:20,527 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:52:20,529 - __main__ - INFO - CSV carregado: 20260124_140352_busca_mogi_perfil.csv com 371 empresas
+2026-01-26 23:52:22,118 - __main__ - INFO - Iniciando processamento de empresas
+2026-01-26 23:52:22,122 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-26 23:52:22,123 - src.processors.async_processor - INFO - Iniciando processamento assíncrono de 371 empresas
+2026-01-26 23:52:27,452 - __main__ - INFO - Iniciando: SELETA & NATURAL
+2026-01-26 23:52:27,460 - src.processors.async_processor - INFO - [1/371] Processando: SELETA & NATURAL
+2026-01-26 23:52:28,937 - src.scrappers.google_scraper - INFO - Buscando: "SELETA & NATURAL" Mogi Mirim
+2026-01-26 23:52:37,687 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: SELETA & NATURAL
+2026-01-26 23:52:37,731 - src.processors.async_processor - INFO - Registro atualizado: SELETA & NATURAL
+2026-01-26 23:52:37,740 - __main__ - INFO - Concluído: SELETA & NATURAL - Sem dados
+2026-01-26 23:52:38,759 - __main__ - INFO - Iniciando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:52:38,764 - src.processors.async_processor - INFO - [2/371] Processando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:52:38,878 - src.scrappers.google_scraper - INFO - Buscando: "REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL" Mogi Mirim
+2026-01-26 23:52:47,999 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:52:48,046 - src.processors.async_processor - INFO - Registro atualizado: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-26 23:52:48,057 - __main__ - INFO - Concluído: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL - Sem dados
+2026-01-26 23:52:49,096 - __main__ - INFO - Iniciando: KIOSQUE DOS AMIGOS
+2026-01-26 23:52:49,098 - src.processors.async_processor - INFO - [3/371] Processando: KIOSQUE DOS AMIGOS
+2026-01-26 23:52:49,248 - src.scrappers.google_scraper - INFO - Buscando: "KIOSQUE DOS AMIGOS" Mogi Mirim
+2026-01-26 23:52:56,874 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: KIOSQUE DOS AMIGOS
+2026-01-26 23:52:56,940 - src.processors.async_processor - INFO - Registro atualizado: KIOSQUE DOS AMIGOS
+2026-01-26 23:52:56,956 - __main__ - INFO - Concluído: KIOSQUE DOS AMIGOS - Sem dados
+2026-01-26 23:52:58,011 - src.processors.async_processor - ERROR - Erro ao processar ALECINIAS MATSUMOTO: App is not running
+2026-01-26 23:52:58,498 - __main__ - ERROR - Erro durante processamento: App is not running
+2026-01-27 00:07:32,276 - __main__ - INFO - Iniciando ExtractMogi
+2026-01-27 00:07:32,304 - __main__ - INFO - Banco de dados inicializado
+2026-01-27 00:07:56,168 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-27 00:07:56,170 - __main__ - INFO - CSV carregado: 20260124_140352_busca_mogi_perfil.csv com 371 empresas
+2026-01-27 00:08:04,305 - __main__ - INFO - Iniciando processamento de empresas
+2026-01-27 00:08:04,308 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-27 00:08:04,308 - src.processors.async_processor - INFO - Iniciando processamento assíncrono de 371 empresas
+2026-01-27 00:08:07,920 - __main__ - INFO - Iniciando: SELETA & NATURAL
+2026-01-27 00:08:07,937 - src.processors.async_processor - INFO - [1/371] Processando: SELETA & NATURAL
+2026-01-27 00:08:08,879 - src.scrappers.google_scraper - INFO - Buscando: "SELETA & NATURAL" Mogi Mirim
+2026-01-27 00:08:20,890 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: SELETA & NATURAL
+2026-01-27 00:08:20,910 - src.processors.async_processor - INFO - Registro atualizado: SELETA & NATURAL
+2026-01-27 00:08:20,913 - __main__ - INFO - Concluído: SELETA & NATURAL - Sem dados
+2026-01-27 00:08:26,230 - __main__ - INFO - Iniciando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:08:26,237 - src.processors.async_processor - INFO - [2/371] Processando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:08:26,403 - src.scrappers.google_scraper - INFO - Buscando: "REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL" Mogi Mirim
+2026-01-27 00:08:30,268 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:08:30,268 - src.processors.async_processor - WARNING - CAPTCHA detectado para: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:08:30,277 - __main__ - WARNING - CAPTCHA: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:08:30,278 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado em modo headless. Sugerindo modo visual.
+2026-01-27 00:08:30,294 - src.processors.async_processor - ERROR - CAPTCHA detectado para REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:30,296 - __main__ - ERROR - Erro em REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL: CAPTCHA: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:30,297 - src.processors.async_processor - WARNING - DICA: Execute novamente com headless=False para resolver CAPTCHAs manualmente
+2026-01-27 00:08:30,298 - __main__ - INFO - Iniciando: KIOSQUE DOS AMIGOS
+2026-01-27 00:08:30,299 - src.processors.async_processor - INFO - [3/371] Processando: KIOSQUE DOS AMIGOS
+2026-01-27 00:08:30,464 - src.scrappers.google_scraper - INFO - Buscando: "KIOSQUE DOS AMIGOS" Mogi Mirim
+2026-01-27 00:08:34,280 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:08:34,280 - src.processors.async_processor - WARNING - CAPTCHA detectado para: KIOSQUE DOS AMIGOS
+2026-01-27 00:08:34,283 - __main__ - WARNING - CAPTCHA: KIOSQUE DOS AMIGOS - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:08:34,291 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado em modo headless. Sugerindo modo visual.
+2026-01-27 00:08:34,314 - src.processors.async_processor - ERROR - CAPTCHA detectado para KIOSQUE DOS AMIGOS: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:34,316 - __main__ - ERROR - Erro em KIOSQUE DOS AMIGOS: CAPTCHA: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:34,317 - src.processors.async_processor - WARNING - DICA: Execute novamente com headless=False para resolver CAPTCHAs manualmente
+2026-01-27 00:08:34,318 - __main__ - INFO - Iniciando: ALECINIAS MATSUMOTO
+2026-01-27 00:08:34,319 - src.processors.async_processor - INFO - [4/371] Processando: ALECINIAS MATSUMOTO
+2026-01-27 00:08:34,443 - src.scrappers.google_scraper - INFO - Buscando: "ALECINIAS MATSUMOTO" Mogi Mirim
+2026-01-27 00:08:38,710 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:08:38,711 - src.processors.async_processor - WARNING - CAPTCHA detectado para: ALECINIAS MATSUMOTO
+2026-01-27 00:08:38,720 - __main__ - WARNING - CAPTCHA: ALECINIAS MATSUMOTO - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:08:38,720 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado em modo headless. Sugerindo modo visual.
+2026-01-27 00:08:38,735 - src.processors.async_processor - ERROR - CAPTCHA detectado para ALECINIAS MATSUMOTO: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:38,737 - __main__ - ERROR - Erro em ALECINIAS MATSUMOTO: CAPTCHA: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:38,738 - src.processors.async_processor - WARNING - DICA: Execute novamente com headless=False para resolver CAPTCHAs manualmente
+2026-01-27 00:08:38,738 - __main__ - INFO - Iniciando: S. & A. JARDINAGEM
+2026-01-27 00:08:38,740 - src.processors.async_processor - INFO - [5/371] Processando: S. & A. JARDINAGEM
+2026-01-27 00:08:38,872 - src.scrappers.google_scraper - INFO - Buscando: "S. & A. JARDINAGEM" Mogi Mirim
+2026-01-27 00:08:43,242 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:08:43,242 - src.processors.async_processor - WARNING - CAPTCHA detectado para: S. & A. JARDINAGEM
+2026-01-27 00:08:43,249 - __main__ - WARNING - CAPTCHA: S. & A. JARDINAGEM - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:08:43,249 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado em modo headless. Sugerindo modo visual.
+2026-01-27 00:08:43,264 - src.processors.async_processor - ERROR - CAPTCHA detectado para S. & A. JARDINAGEM: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:43,267 - __main__ - ERROR - Erro em S. & A. JARDINAGEM: CAPTCHA: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:43,281 - src.processors.async_processor - WARNING - DICA: Execute novamente com headless=False para resolver CAPTCHAs manualmente
+2026-01-27 00:08:43,293 - __main__ - INFO - Iniciando: RC MOTORS
+2026-01-27 00:08:43,295 - src.processors.async_processor - INFO - [6/371] Processando: RC MOTORS
+2026-01-27 00:08:43,434 - src.scrappers.google_scraper - INFO - Buscando: "RC MOTORS" Mogi Mirim
+2026-01-27 00:08:47,956 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:08:47,956 - src.processors.async_processor - WARNING - CAPTCHA detectado para: RC MOTORS
+2026-01-27 00:08:47,964 - __main__ - WARNING - CAPTCHA: RC MOTORS - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:08:47,965 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado em modo headless. Sugerindo modo visual.
+2026-01-27 00:08:47,980 - src.processors.async_processor - ERROR - CAPTCHA detectado para RC MOTORS: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:47,982 - __main__ - ERROR - Erro em RC MOTORS: CAPTCHA: CAPTCHA detectado. Execute com headless=False para resolver manualmente.
+2026-01-27 00:08:48,002 - src.processors.async_processor - WARNING - DICA: Execute novamente com headless=False para resolver CAPTCHAs manualmente
+2026-01-27 00:08:48,016 - __main__ - INFO - Iniciando: CLEIDE MODA PLUS SIZE
+2026-01-27 00:08:48,017 - src.processors.async_processor - INFO - [7/371] Processando: CLEIDE MODA PLUS SIZE
+2026-01-27 00:08:48,162 - src.scrappers.google_scraper - INFO - Buscando: "CLEIDE MODA PLUS SIZE" Mogi Mirim
+2026-01-27 00:08:52,630 - src.scrappers.google_scraper - ERROR - Erro ao buscar CLEIDE MODA PLUS SIZE: Page.wait_for_selector: Target page, context or browser has been closed
+2026-01-27 00:08:52,644 - src.processors.async_processor - INFO - Registro atualizado: CLEIDE MODA PLUS SIZE
+2026-01-27 00:08:52,645 - src.processors.async_processor - ERROR - Erro ao processar CLEIDE MODA PLUS SIZE: App is not running
+2026-01-27 00:08:52,667 - __main__ - ERROR - Erro durante processamento: BrowserContext.close: Target page, context or browser has been closed
+2026-01-27 00:09:44,905 - __main__ - INFO - Iniciando ExtractMogi
+2026-01-27 00:09:44,926 - __main__ - INFO - Banco de dados inicializado
+2026-01-27 00:10:02,465 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-27 00:10:02,467 - __main__ - INFO - CSV carregado: 20260124_140352_busca_mogi_perfil.csv com 371 empresas
+2026-01-27 00:10:03,848 - __main__ - INFO - Iniciando processamento de empresas
+2026-01-27 00:10:03,857 - src.processors.async_processor - INFO - CSV lido com sucesso: 371 empresas encontradas
+2026-01-27 00:10:03,858 - src.processors.async_processor - INFO - Iniciando processamento assíncrono de 371 empresas
+2026-01-27 00:10:05,018 - __main__ - INFO - Iniciando: SELETA & NATURAL
+2026-01-27 00:10:05,027 - src.processors.async_processor - INFO - [1/371] Processando: SELETA & NATURAL
+2026-01-27 00:10:05,487 - src.scrappers.google_scraper - INFO - Buscando: "SELETA & NATURAL" Mogi Mirim
+2026-01-27 00:10:09,987 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado via seletor: form#captcha-form
+2026-01-27 00:10:10,021 - src.processors.async_processor - WARNING - CAPTCHA detectado para: SELETA & NATURAL
+2026-01-27 00:10:10,035 - __main__ - WARNING - CAPTCHA: SELETA & NATURAL - CAPTCHA detectado! Aguardando resolução manual...
+2026-01-27 00:10:10,035 - src.scrappers.google_scraper - WARNING - CAPTCHA detectado! Aguardando intervenção humana...
+2026-01-27 00:10:10,035 - src.scrappers.google_scraper - WARNING - ============================================================
+2026-01-27 00:10:10,064 - src.scrappers.google_scraper - WARNING - ============================================================
+2026-01-27 00:10:10,064 - src.scrappers.google_scraper - WARNING - Empresa: SELETA & NATURAL
+2026-01-27 00:10:10,070 - src.scrappers.google_scraper - WARNING - Instruções:
+2026-01-27 00:10:10,071 - src.scrappers.google_scraper - WARNING - 1. Resolva o CAPTCHA manualmente na janela do navegador
+2026-01-27 00:10:10,076 - src.scrappers.google_scraper - WARNING - 2. Aguarde até ver os resultados da busca aparecerem
+2026-01-27 00:10:10,076 - src.scrappers.google_scraper - WARNING - 3. O script continuará automaticamente
+2026-01-27 00:10:10,077 - src.scrappers.google_scraper - WARNING - ============================================================
+2026-01-27 00:10:26,891 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: SELETA & NATURAL
+2026-01-27 00:10:26,966 - src.processors.async_processor - INFO - Registro atualizado: SELETA & NATURAL
+2026-01-27 00:10:26,985 - __main__ - INFO - Concluído: SELETA & NATURAL - Sem dados
+2026-01-27 00:10:30,388 - __main__ - INFO - Iniciando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:10:30,392 - src.processors.async_processor - INFO - [2/371] Processando: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:10:30,588 - src.scrappers.google_scraper - INFO - Buscando: "REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL" Mogi Mirim
+2026-01-27 00:10:40,013 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:10:40,037 - src.processors.async_processor - INFO - Registro atualizado: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL
+2026-01-27 00:10:40,107 - __main__ - INFO - Concluído: REMPEL INSTALACAO E MANUTENCAO INDUSTRIAL - Sem dados
+2026-01-27 00:10:47,073 - __main__ - INFO - Iniciando: KIOSQUE DOS AMIGOS
+2026-01-27 00:10:47,078 - src.processors.async_processor - INFO - [3/371] Processando: KIOSQUE DOS AMIGOS
+2026-01-27 00:10:47,218 - src.scrappers.google_scraper - INFO - Buscando: "KIOSQUE DOS AMIGOS" Mogi Mirim
+2026-01-27 00:10:56,502 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: KIOSQUE DOS AMIGOS
+2026-01-27 00:10:56,520 - src.processors.async_processor - INFO - Registro atualizado: KIOSQUE DOS AMIGOS
+2026-01-27 00:10:56,564 - __main__ - INFO - Concluído: KIOSQUE DOS AMIGOS - Sem dados
+2026-01-27 00:11:01,399 - __main__ - INFO - Iniciando: ALECINIAS MATSUMOTO
+2026-01-27 00:11:01,403 - src.processors.async_processor - INFO - [4/371] Processando: ALECINIAS MATSUMOTO
+2026-01-27 00:11:01,560 - src.scrappers.google_scraper - INFO - Buscando: "ALECINIAS MATSUMOTO" Mogi Mirim
+2026-01-27 00:11:10,769 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: ALECINIAS MATSUMOTO
+2026-01-27 00:11:10,806 - src.processors.async_processor - INFO - Registro atualizado: ALECINIAS MATSUMOTO
+2026-01-27 00:11:10,835 - __main__ - INFO - Concluído: ALECINIAS MATSUMOTO - Sem dados
+2026-01-27 00:11:14,083 - __main__ - INFO - Iniciando: S. & A. JARDINAGEM
+2026-01-27 00:11:14,086 - src.processors.async_processor - INFO - [5/371] Processando: S. & A. JARDINAGEM
+2026-01-27 00:11:14,233 - src.scrappers.google_scraper - INFO - Buscando: "S. & A. JARDINAGEM" Mogi Mirim
+2026-01-27 00:11:24,299 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: S. & A. JARDINAGEM
+2026-01-27 00:11:24,356 - src.processors.async_processor - INFO - Registro atualizado: S. & A. JARDINAGEM
+2026-01-27 00:11:24,389 - __main__ - INFO - Concluído: S. & A. JARDINAGEM - Sem dados
+2026-01-27 00:11:30,764 - __main__ - INFO - Iniciando: RC MOTORS
+2026-01-27 00:11:30,769 - src.processors.async_processor - INFO - [6/371] Processando: RC MOTORS
+2026-01-27 00:11:30,968 - src.scrappers.google_scraper - INFO - Buscando: "RC MOTORS" Mogi Mirim
+2026-01-27 00:11:40,463 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: RC MOTORS
+2026-01-27 00:11:40,486 - src.processors.async_processor - INFO - Registro atualizado: RC MOTORS
+2026-01-27 00:11:40,525 - __main__ - INFO - Concluído: RC MOTORS - Sem dados
+2026-01-27 00:11:46,342 - __main__ - INFO - Iniciando: CLEIDE MODA PLUS SIZE
+2026-01-27 00:11:46,346 - src.processors.async_processor - INFO - [7/371] Processando: CLEIDE MODA PLUS SIZE
+2026-01-27 00:11:46,495 - src.scrappers.google_scraper - INFO - Buscando: "CLEIDE MODA PLUS SIZE" Mogi Mirim
+2026-01-27 00:11:55,967 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: CLEIDE MODA PLUS SIZE
+2026-01-27 00:11:55,992 - src.processors.async_processor - INFO - Registro atualizado: CLEIDE MODA PLUS SIZE
+2026-01-27 00:11:56,009 - __main__ - INFO - Concluído: CLEIDE MODA PLUS SIZE - Sem dados
+2026-01-27 00:11:59,556 - __main__ - INFO - Iniciando: DK FASHION STORE
+2026-01-27 00:11:59,560 - src.processors.async_processor - INFO - [8/371] Processando: DK FASHION STORE
+2026-01-27 00:11:59,690 - src.scrappers.google_scraper - INFO - Buscando: "DK FASHION STORE" Mogi Mirim
+2026-01-27 00:12:09,579 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: DK FASHION STORE
+2026-01-27 00:12:09,642 - src.processors.async_processor - INFO - Registro atualizado: DK FASHION STORE
+2026-01-27 00:12:09,677 - __main__ - INFO - Concluído: DK FASHION STORE - Sem dados
+2026-01-27 00:12:12,927 - __main__ - INFO - Iniciando: MV SISTEMAS
+2026-01-27 00:12:12,931 - src.processors.async_processor - INFO - [9/371] Processando: MV SISTEMAS
+2026-01-27 00:12:13,230 - src.scrappers.google_scraper - INFO - Buscando: "MV SISTEMAS" Mogi Mirim
+2026-01-27 00:12:22,912 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: MV SISTEMAS
+2026-01-27 00:12:22,953 - src.processors.async_processor - INFO - Registro atualizado: MV SISTEMAS
+2026-01-27 00:12:22,980 - __main__ - INFO - Concluído: MV SISTEMAS - Sem dados
+2026-01-27 00:12:29,173 - __main__ - INFO - Iniciando: ADEMAR LANCHES
+2026-01-27 00:12:29,175 - src.processors.async_processor - INFO - [10/371] Processando: ADEMAR LANCHES
+2026-01-27 00:12:29,316 - src.scrappers.google_scraper - INFO - Buscando: "ADEMAR LANCHES" Mogi Mirim
+2026-01-27 00:12:39,025 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: ADEMAR LANCHES
+2026-01-27 00:12:39,051 - src.processors.async_processor - INFO - Registro atualizado: ADEMAR LANCHES
+2026-01-27 00:12:39,086 - __main__ - INFO - Concluído: ADEMAR LANCHES - Sem dados
+2026-01-27 00:12:43,664 - __main__ - INFO - Iniciando: A D TRANSPORTES
+2026-01-27 00:12:43,668 - src.processors.async_processor - INFO - [11/371] Processando: A D TRANSPORTES
+2026-01-27 00:12:43,843 - src.scrappers.google_scraper - INFO - Buscando: "A D TRANSPORTES" Mogi Mirim
+2026-01-27 00:12:53,310 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: A D TRANSPORTES
+2026-01-27 00:12:53,331 - src.processors.async_processor - INFO - Registro atualizado: A D TRANSPORTES
+2026-01-27 00:12:53,356 - __main__ - INFO - Concluído: A D TRANSPORTES - Sem dados
+2026-01-27 00:12:58,273 - __main__ - INFO - Iniciando: MALU MADALENA
+2026-01-27 00:12:58,277 - src.processors.async_processor - INFO - [12/371] Processando: MALU MADALENA
+2026-01-27 00:12:58,571 - src.scrappers.google_scraper - INFO - Buscando: "MALU MADALENA" Mogi Mirim
+2026-01-27 00:13:07,572 - src.scrappers.google_scraper - WARNING - Widget do Google Meu Negócio não encontrado para: MALU MADALENA
+2026-01-27 00:13:07,626 - src.processors.async_processor - INFO - Registro atualizado: MALU MADALENA
+2026-01-27 00:13:07,664 - __main__ - INFO - Concluído: MALU MADALENA - Sem dados
+2026-01-27 00:13:13,986 - src.processors.async_processor - ERROR - Erro ao processar LUZZERIE: App is not running
+2026-01-27 00:13:14,634 - __main__ - ERROR - Erro durante processamento: App is not running

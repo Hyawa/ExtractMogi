@@ -1,0 +1,16 @@
+# ExtractMogi - Dependências do Projeto
+
+# Web Scraping
+playwright==1.48.0
+beautifulsoup4==4.12.3
+
+# Banco de Dados
+SQLAlchemy==2.0.36
+
+# Utilidades
+python-dotenv==1.0.1
+
+# Logging (já incluído no Python standard library)
+
+# Para instalar o Playwright browsers, execute após pip install:
+# playwright install chromium
