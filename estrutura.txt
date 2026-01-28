@@ -1,6 +1,5 @@
 C:\Meus Projetos\ExtractMogi
 |   alembic.ini
-|   arquivo.txt
 |   estrutura.txt
 |   extractmogi.log
 |   main.py
