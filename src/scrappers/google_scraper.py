@@ -35,7 +35,7 @@ class GoogleScraper:
             headless: Se True, executa em modo headless (sem interface gráfica)
             slow_mo: Delay em ms entre ações (ajuda a evitar CAPTCHA)
         """
-        self.headless = headless
+        self.headless = False
         self.slow_mo = slow_mo
         self.browser = None
         self.context = None

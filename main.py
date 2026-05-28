@@ -72,10 +72,15 @@ class ExtractMogiApp(App):
 
     BINDINGS = [
         Binding("i", "import_file", "Importar CSV", show=True),
+        Binding("I", "import_file", "Importar CSV", show=False),
         Binding("p", "process", "Processar", show=True),
+        Binding("P", "process", "Processar", show=False),
         Binding("e", "export", "Exportar", show=True),
+        Binding("E", "export", "Exportar", show=False),
         Binding("c", "clear_table", "Limpar Tabela", show=True),
+        Binding("C", "clear_table", "Limpar Tabela", show=False),
         Binding("q", "quit", "Sair", show=True),
+        Binding("Q", "quit", "Sair", show=False),
     ]
 
     def __init__(self):
@@ -404,12 +409,33 @@ class ExtractMogiApp(App):
             self.update_status(f"❌ Erro na exportação: {str(e)}")
 
     def action_clear_table(self) -> None:
-        """Limpa a tabela de dados."""
+        """Limpa a tabela de dados e o banco de dados."""
+        if self.processing:
+            self.update_status("⚠ Aguarde o processamento finalizar para limpar")
+            return
+
         try:
+            # Limpa o banco de dados
+            db_session = SessionLocal()
+            try:
+                db_session.query(ExtractMogi).delete()
+                db_session.commit()
+                logger.info("Banco de dados limpo com sucesso")
+            except Exception as e:
+                db_session.rollback()
+                logger.error(f"Erro ao limpar banco de dados: {e}")
+                self.update_status(f"❌ Erro ao limpar DB: {str(e)}")
+            finally:
+                db_session.close()
+
+            # Limpa a interface
             table = self.query_one("#data_table")
-            table.clear()
-            self.update_status("🗑 Tabela limpa")
-            logger.info("Tabela de dados limpa")
+            # Limpa tudo, incluindo as colunas, e as recria para forçar a atualização visual no Textual
+            table.clear(columns=True)
+            table.add_columns("Empresa", "Telefone", "Facebook", "Status")
+            
+            self.update_status("🗑 Tabela e banco limpos")
+            logger.info("Tabela de dados da interface limpa")
         except Exception as e:
             logger.error(f"Erro ao limpar tabela: {e}")
 
